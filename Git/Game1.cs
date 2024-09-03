@@ -9,6 +9,8 @@ namespace Git
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
+        Texture2D texture;
+
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
