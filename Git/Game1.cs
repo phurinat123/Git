@@ -12,7 +12,7 @@ namespace Git
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
-            Content.RootDirectory = "Content";
+            Content.RootDirectory = "Contents";
             IsMouseVisible = true;
         }
 
